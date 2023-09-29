@@ -1,0 +1,27 @@
+
+    html{
+        font-size: 22px;
+    }
+    body{
+        background-image:url(pexels-francesco-ungaro-673648.jpg);
+        background-repeat: repeat;
+      
+    }
+    
+    p{
+        font-size: 2rem;
+    }
+h1{
+    border: 2px dashed limegreen;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: antiquewhite;
+    background-color:rgb(136, 208, 48);
+    
+}
+
