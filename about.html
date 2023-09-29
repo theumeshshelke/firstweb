@@ -32,8 +32,7 @@
                     Open <a href=" https://www.google.com/" target="_blank"> Google </a> in a new tab.
                 </li>
         </ul>
-<p> <br>
-   <button  > Click Here </button>
+<button onclick="download()" type="button"  id="download"> Download  </button>
    
 <audio controls id="music">
 <source src="Kadhal_En_Kaviye_(Lofi)__Salmon_3D__Sid_Sriram_(128k).mp3" type="audio/mp3">
@@ -67,6 +66,9 @@ function pause() {
 myMusic.pause();
 
 }
+    var downLoad=document.getElementById("download");
+     function download(){
+        downLoad.download();
 
 </script>
 
